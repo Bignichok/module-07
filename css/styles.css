@@ -227,16 +227,21 @@ input[type="radio"].visually-hidden {
   margin-bottom: 28px;
 }
 .contact__form_input[type="text"]:valid {
-  outline: 1px solid rgb(0, 255, 0);
+  border: 1px solid rgb(0, 255, 0);
+  border-radius: 2px;
+}
+.contact__form_inputt[type="text"]:invalid {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 2px;
 }
 .contact__form_input[type="email"]:valid {
-  outline: 1px solid rgb(0, 255, 0);
+  border: 1px solid rgb(0, 255, 0);
+  border-radius: 2px;
 }
-.contact__form_input[type="text"]:invalid {
-  outline: 1px solid rgb(255, 0, 0);
-}
+
 .contact__form_input[type="email"]:invalid {
-  outline: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 2px;
 }
 
 .contact__form_input::placeholder,
