@@ -226,16 +226,9 @@ input[type="radio"].visually-hidden {
 .contact__form_input:not(:last-child) {
   margin-bottom: 28px;
 }
-.contact__form_input[type="text"]:valid {
-  border: 1px solid rgb(0, 255, 0);
-  border-radius: 2px;
-}
+
 .contact__form_inputt[type="text"]:invalid {
   border: 1px solid rgb(255, 0, 0);
-  border-radius: 2px;
-}
-.contact__form_input[type="email"]:valid {
-  border: 1px solid rgb(0, 255, 0);
   border-radius: 2px;
 }
 
