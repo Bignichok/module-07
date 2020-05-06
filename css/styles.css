@@ -27,7 +27,6 @@ a:focus {
 }
 
 button,
-input,
 optgroup,
 select,
 textarea {
@@ -227,12 +226,9 @@ input[type="radio"].visually-hidden {
   margin-bottom: 28px;
 }
 
-.contact__form_inputt[type="text"]:invalid {
-  border-color: red;
-}
-
-.contact__form_input[type="email"]:invalid {
-  border-color: red;
+.contact__form_input:required:focus:invalid:not(:placeholder-shown) {
+  border: 1px solid red;
+  border-radius: 2px;
 }
 
 .contact__form_input::placeholder,
