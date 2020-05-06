@@ -228,13 +228,11 @@ input[type="radio"].visually-hidden {
 }
 
 .contact__form_inputt[type="text"]:invalid {
-  border: 1px solid rgb(255, 0, 0);
-  border-radius: 2px;
+  border-color: red;
 }
 
 .contact__form_input[type="email"]:invalid {
-  border: 1px solid rgb(255, 0, 0);
-  border-radius: 2px;
+  border-color: red;
 }
 
 .contact__form_input::placeholder,
